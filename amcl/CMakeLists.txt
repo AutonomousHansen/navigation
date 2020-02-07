@@ -23,6 +23,7 @@ find_package(catkin REQUIRED
 )
 
 find_package(Boost REQUIRED)
+include(CheckSymbolExists)
 
 # dynamic reconfigure
 generate_dynamic_reconfigure_options(
